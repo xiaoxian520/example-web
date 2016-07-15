@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+ <!-- Docens Design_121015-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Docens Design</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+<!--         add the smooth-scroll javascript -->
+	<script src="jquery.smooth-scroll.js"></script>
+<!--         call the smoothScroll function for the nav a elements -->
+	<script>
+	$(document).ready(function() {
+	$('ul.smoothnav a').smoothScroll();
+	});
+
+	</script>
+	<!--import font: Source Sans Pro-->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<header class="clearfix">
+<div class="clearfix" id="logo_area">
+<img src="images/docens_logo_white2.png" alt="Docens logo black text" title="Docens Logo"></div>
+
+<nav class="clearfix" id="main_nav">
+	<ul class="smoothnav">
+	<li><a href="#about">about</a></li>
+	<li><a href="portfolio.html">portfolio</a></li>
+	<li><a href="#expertise">expertise</a></li>
+ 	<li><a href="#contact">contact</a></li>
+	</ul>
+</nav>
+
+<!-- MOBILE MENU 960px-->
+<div class="clearfix" id="logo_mobile">
+<div id="logo_box">
+<a href="index.html"><img src="images/docens_logo_white2.png" alt="Docens logo black text" title="Docens Logo"></a></div>
+</div>
+
+<!--NAV MOBILE -->
+
+<nav class="clearfix" id="nav_mobile">
+<label for="menu_toggle">Menu</label>
+    <!--<label for="menu_toggle">Menu</label>-->
+<input type="checkbox" id="menu_toggle"/>
+	<ul class="smoothnav" id="menu_list">
+		<li><a href="#about">about</a></li>
+		<li><a href="#expertise">expertise</a></li>
+		<li><a href="portfolio.html">portfolio</a></li>
+		<li><a href="#contact">contact</a></li>
+	</ul>
+</nav>
+</header>
+
+<!-- LANDING PAGE MAIN BODY SECTION -->
+
+<div class="clearfix" id="mainbody">
+<div class="clearfix" id="col1"> 
+<div id="tagline"><h1>Design with clarity</h1></div>
+<div id="services"><p>Web & Print Design</p></div>
+<div class="clearfix" id="portfolio">
+<div id="portfolio_button"><a href="portfolio.html"><h3>view portfolio</h3></a></div>
+</div>
+</div>
+
+<div class="clearfix" id="square_wrapper">
+<div class="clearfix" id="col2">
+<div id="blue_square"><img src="images/bluesquare.png" alt="Image blue square" title="Blue Square"></div>
+</div>
+
+<div class="clearfix" id="col3">
+<div id="black_square"><img src="images/blacksquare.png" alt="Image black square" title="Black Square"></div>
+</div>
+</div>
+
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="clearfix" id="about">
+<div id="col1_about">
+<h2>About</h2>
+</div>
+
+<div id="col2_abouttext">
+<p>Docens Design is a Chicago based studio, specializing in communication design. With a robust process rooted in design thinking methodology, user research and visualization, Docens Design focuses on creating educative, accessibile solutions across print and web.</p>
+</div>
+</div>
+
+<!-- WOW IMAGE -->
+
+<div class="clearfix" id="wow_image">
+<div id="wow"><img src="images/wow4.jpg" alt="Image book cover" title="Book Cover"></div>
+</div>
+
+<!-- Expertise Banner -->
+
+<div class="clearfix" id="expertise">
+<div id="expertise_title">
+	<h2>Expertise</h2>
+</div>
+</div>
+
+<!-- Expertise Wrapper -->
+
+<div class="clearfix" id="expert_wrapper">
+<div id="expert_icons">
+	<div class="clearfix icon_info">
+	<div class="clearfix icon_img">
+		<img class="icon_type" src="images/web.png">
+	</div>
+	<div id="info">
+		<h4>Web Design</h4>
+		<p>Using design research and brand expertise, Docens can help you create a targeted, compelling online platform for a business or portfolio.</p>
+	</div>
+	</div>
+
+	<div class="clearfix icon_info">
+	<div class="icon_img">
+		<img class="icon_type" src="images/marketing.png">
+	</div>
+	<div id="info">
+		<h4>Marketing</h4>
+		<p>Our holistic approach to marketing and brand development, enables  clients to create streamlined campaigns for print and web based solutions, including direct email and social media.</p>
+	</div>
+	</div>
+
+	<div class="clearfix icon_info">
+	<div class="icon_img">
+		<img class="icon_type" src="images/education.png">
+	</div>
+	<div id="info">
+		<h4>Education</h4>
+		<p> From brand identity to organizational strategy, we work closely with our clients to customize the workshop, education material and learning tools that support the engagement.</p>
+	</div>
+	</div>
+
+</div>
+</div>
+
+
+<!-- Footer -->
+
+<footer>
+<div id="contact_wrapper"> 
+<div id="contact">
+<div id="contact_heading"><h3>Contact</h3>
+	</div>
+<div id="email_contact">
+	<p><a href="#">hello@docensdesign.com</a></p>
+	</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
