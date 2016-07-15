@@ -1,0 +1,792 @@
+/* WEEK 15 Docens Design_v7*/
+
+body{
+	display: block;
+	font-size: 14px;
+	height: 100%;
+}
+
+/* ---- HEADER: Logo and Nav ----*/
+
+header{
+	margin: 0 auto;
+	width: 100%;
+	height: 5.5em;
+	background-color: #000;
+}
+
+#logo_area{
+	width: 8em;
+	margin: 1.75em 0 0 4em;
+	float: left;
+}
+
+#logo_area img{
+	width: 100%;
+	position: relative;
+}
+
+#main_nav{
+	width: 500px;
+	margin: 2.5em 0 0 0;
+	float: right;
+}
+
+#main_nav nav{
+	float: right;
+}
+
+#main_nav ul{
+	float: right;
+	width: 500px;
+	font: 400 1em "Source Sans Pro", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #fff;
+	list-style-type: none;
+	overflow: hidden;
+	/*transform: translateY (-50%);*/
+}
+
+#main_nav ul li{
+	display: inline-block;
+}
+
+#main_nav ul a:link, #main_nav a:visited{
+	display: inline-block;
+	width: 120px;
+	height: 3em;
+	padding: 1em;
+	color: #fff;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#main_nav ul a:hover, #main_nav a:active{
+	display: inline-block;
+	color: #000;
+	background-color: #fff;
+}
+
+/* ------------------ MAINBODY Columns: Tagline and Squares ----*/
+
+#mainbody{
+	width: 100%;
+	overflow: auto;
+}
+
+#col1{
+	width: 30%;
+	margin: 10em;
+	position: absolute;
+}
+
+#tagline h1{
+	font: 200 3em "Source Sans Pro", sans-serif;
+	color: #000;
+	text-align: center;
+	letter-spacing: -0.01em;	
+}
+
+#services p{
+	margin: 1em 0 2em 0;	
+	font: 400 1.15em "Source Sans Pro", sans-serif;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+#portfolio{
+	width: 100%;
+}
+
+#portfolio_button{
+	width: 150px;
+	margin: 0 auto;
+	background-color: rgb(61, 122, 247);
+}
+
+#portfolio_button h3{
+	margin: 0 auto;
+	padding: 1em;
+	font: 400 .95em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+#portfolio_button a:link{
+	width: 100%;
+	font: 400 .95em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#portfolio_button a:hover, a:active{
+	display: block;
+	width: 100%;
+	color: #fff;
+	background-color: #000;
+}
+
+#square_wrapper{
+	width: 30%;
+	margin: 0 10em 0;
+	float: right;
+}
+
+#col2{
+	width: 100%;
+	float: right;
+}
+
+#blue_square{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#blue_square img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#col3{
+	width: 100%;
+	float: right;
+}
+
+#black_square{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	bottom: 0;
+}
+
+#black_square img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* --------------------------- ABOUT CONTENT ----*/
+
+#about{
+	width: 100%;
+	background-color: rgb(61, 122, 247);
+	overflow: auto;
+}
+
+#col1_about{
+	width: 15%;
+	margin: 4em 0 0 4em;
+	float: left;
+}
+
+#col1_about h2{
+	font: 300 2em/1.5em "Source Sans Pro", sans-serif;
+	color: #fff;
+	letter-spacing: .05em;
+}
+
+#col2_abouttext{
+	width: 50%;
+	margin: 4em 0 4em 2em;
+	float: left;
+}
+
+#col2_abouttext p{
+	font: 200 2em/1.5em "Source Sans Pro", sans-serif;
+	color: #fff;
+}
+
+/* ---- WOW IMAGE ----*/
+
+#wow_image{
+	width: 100%;
+	height: 15em;
+	overflow: hidden;
+}
+
+#wow{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#wow img{
+	display: block;
+	width: 100%;
+}
+
+/* ---- EXPERTISE ----*/
+
+#expertise{
+	width: 100%;
+	background-color: rgb(61, 122, 247);
+	overflow: auto;
+}
+
+#expertise_title{
+	width: 20%;
+	float: left;
+	margin: 2em 4em;
+}
+
+#expertise_title h2{
+	font: 300 2em/1.5em "Source Sans Pro", sans-serif;
+	color: white;
+	letter-spacing: .05em;
+}
+
+#expert_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#expert_icons{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 6em;
+	padding-bottom: 2em
+}
+
+.icon_info{
+	width: 100%;
+	margin-bottom: 4em;
+}
+
+.icon_img{
+	width: 4em;
+	height: 9em;
+	margin-right: 2em;
+	float: left;
+}
+
+.icon_type{
+	width: 4em;
+}
+
+#info h4{
+	font: 400 1.2em/1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+
+#info p{
+	font: 300 1.2em/1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+}
+
+/* ---- FOOTER ----*/
+
+footer{
+	width: 100%;
+	background-color: #000;
+}
+
+#contact_wrapper{
+	width: 100%;
+}
+
+#contact{
+	margin: 0 auto;
+	padding: 2em;
+}
+
+#contact_heading h3{
+	font: 400 .85em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+#email_contact p{
+	padding-top: .5em;
+	font: 300 1em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-align: center;
+	text-transform: lowercase;
+	letter-spacing: .05em;
+}
+
+#email_contact a{
+	font: 200 1em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+#email_contact a:hover, a:active{
+	text-decoration: underline;
+}
+
+#email_contact a:link a:visited{
+	text-decoration: none;
+}
+
+/*---------------PORTFOLIO PAGE----------------------------PG2---*/
+
+#portfolio_pagewrapper{
+	width: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+iframe{
+	display: block;
+}
+
+#video{
+	width: 100%;
+	max-width: 1020px;
+	margin-bottom: 3em;
+}
+
+.portfolio_section{
+	width: 100%;
+	margin-top: 3em;
+	overflow: auto;
+}
+
+.portfolio_section2{
+	width: 100%;
+	margin: 3em 0 3em 0;
+	overflow: auto;
+}
+
+.intro_section{
+	width: 20%;
+	margin-left: 2em;
+	float: left;
+}
+
+.intro_text{
+	margin-left: 2em;
+}
+
+.intro_text h5{
+	font: 400 1.2em "Source Sans Pro", sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.intro_text p{
+	margin-top: 1em;
+	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+}
+
+.image_box{	
+	width: 70%;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.folio_image{
+	width: 100%;
+}
+
+.folio_image img{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.clearfix:after{鈥� 
+	visibility: hidden;鈥�
+	display: block;鈥�
+	font-size: 0;鈥�
+	content: " ";
+	clear: both;鈥�
+	height: 0;
+}
+
+#mobile_menu{
+	display: none;
+}
+
+#mobile_logo_area1{
+	display: none;
+}
+
+#nav_mobile{
+	display: none;
+}
+
+#logo_mobile{
+	display: none;
+}
+
+#menu{
+	display: none;
+}
+
+#portfolio_mq-sect1{
+	display: none;
+}
+
+#portfolio_mq-sect2{
+	display: none;
+}
+
+#portfolio_mq-sect3{
+	display: none;
+}
+
+/* ----------------------------------------- MEDIA QUERIES ----*/
+
+@media screen and (max-width:1080px){
+
+#col1{
+	margin: 8em 0 0 8em;
+}
+}
+
+@media screen and (max-width:1021px){
+
+#col1{
+	margin: 8em 0 0 8em;
+	width: 40%;
+}
+
+#expert_icons{
+	width: 70%;
+}
+}
+
+/* -------------------- MEDIA QUERY GALAXY / iPad 900px ----*/
+@media screen and (max-width:900px){
+
+#col1{
+	margin: 4.5em 4em 0 4em;
+	width: 40%;
+}
+
+#col2_abouttext{
+	width: 65%;
+}
+
+#wow_image{
+	height: 8em;
+}
+
+#expert_icons{
+	width: 80%;
+}
+}
+
+/* -------------------- MEDIA QUERY IPAD 1鈥揗INI 768px ----*/
+@media screen and (max-width:768px){
+
+#main_nav{
+	display: none !important;
+}
+
+#logo_area{
+	display: none !important;
+}
+
+header{
+	height: 4em;
+}
+
+#logo_mobile{
+	width: 100%;
+	display: block;
+}
+
+#logo_box{
+	width: 10em;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#logo_box img{
+	width: 100%;
+}
+
+#nav_mobile{
+	display: block;
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	background-color: #000;
+	z-index: 100;
+}
+
+label{
+	display: block;
+	width: 100%;
+	margin: 1em .5em;
+	padding: 1em;
+	font: 400 1em "Source Sans Pro", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.05em;
+	overflow: hidden;
+}
+
+#menu_toggle{
+	display: none;
+}
+
+#menu_list{
+	display: none;
+}
+
+#menu_toggle:checked + #menu_list{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: -120px;
+	background-color: #000;
+	letter-spacing: 0.05em;
+	font: 400 1em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-align: center;
+	z-index:100;
+}
+
+ul li{
+	width: 100%;
+	height: 2em;
+	margin: .5em;
+}
+
+ul li a{
+	width: 100%;
+	height: 2em;
+	font: 400 1em "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index:100;
+}
+
+ul li a:link, a:visited {
+	height: 2em;
+	color: #fff;
+	background-color: #000;
+}
+
+ul li a:active {
+	text-decoration: none;
+}
+
+#mainbody{
+	width: 100%;
+}
+
+#col1 {
+	margin: 19.5em 0 5em;
+	width: 100%;
+	z-index: 1;
+}
+
+#square_wrapper{
+	width: 40%;
+	height: 600px;
+	margin: 0 auto;
+	float: none;
+	position: relative;
+}
+
+#col2{
+	float: none;
+}
+
+#col3{
+	overflow: hidden;
+	bottom: 0;
+	position: absolute;
+	float: none;
+}
+
+#col2_abouttext{
+	width: 65%;
+	margin: 4em 0 4em 1em;
+}
+
+#col1_about h2{
+	font: 300 1.5em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#col2_abouttext p{
+	font: 200 1.5em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#expertise_title h2{
+	font: 300 1.5em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#expert_icons{
+	width: 90%;
+}
+
+.icon_img{
+	height: 7em;
+}
+
+#info h4{
+	font: 400 1em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#info p{
+	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
+	color: #000;
+}
+
+.icon_info{
+	margin-bottom: 3em;
+}
+
+/*Footer------------------------------*/
+footer{
+	width: 100%;
+	background-color: rgb(61, 122, 247);
+	display: block;
+	height: 130px;
+}
+
+#contact{
+	height: 12em;
+	padding: 2em;
+}
+
+/* PORTFOLIO FOIO PAGE CLASSES------------------------------*/
+
+#video{
+	margin-bottom: 1em;
+}
+
+.portfolio_section{
+	margin-top: 2em;
+	overflow: hidden;
+}
+
+.intro_section{
+	width: 90%;
+	float: none;
+}
+
+.intro_text{
+	margin-left: 0;
+}
+
+.intro_text p{
+	margin: .5em 0 1em;
+}
+
+.image_box{	
+	width: 90%;
+	/*max-width: 600px;*/
+}
+
+.folio_image{
+	margin-bottom: 1em;
+}
+}
+/* MQ iphones---------------------------------------------------*/
+@media screen and (max-width:640px){
+
+#col1 {
+	margin: 14.5em 0 2em;
+}
+
+#tagline h1{
+	font: 300 2em "Source Sans Pro", sans-serif;
+}
+
+#services p{
+	margin: .75em 0 2em 0;	
+	font: 300 1em "Source Sans Pro", sans-serif;
+}
+
+#portfolio_button{
+	width: 120px;
+}
+
+#portfolio_button h3{
+	padding: .75em;
+	font: 400 .85em "Source Sans Pro", sans-serif;
+}
+
+#portfolio_button a:link{
+	font: 400 .85em "Source Sans Pro", sans-serif;
+}
+
+#square_wrapper{
+	width: 60%;
+	height: 450px;
+}
+
+#col1_about{
+	margin: 2em 0 0 2em;
+}
+
+#col2_abouttext{
+	width: 60%;
+	margin: 2em 0 2em 1em;
+}
+
+#col1_about h2{
+	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#col2_abouttext p{
+	font: 200 1em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#wow_image{
+	height: auto;
+}
+
+#expertise_title{
+	width: 50%;
+	margin: 1em 0 1em 1em;
+}
+
+#expertise_title h2{
+	font: 300 1em/1.5em "Source Sans Pro", sans-serif;
+}
+
+#expert_icons{
+	width: 90%;
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+
+.icon_info{
+	height: 10em;
+	margin-bottom: 1em;
+}
+
+.icon_img{
+	width: 2em;
+	height: 10em;
+	margin-right: 1em;
+}
+
+.icon_type{
+	width: 2em;
+}
+}
